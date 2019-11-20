@@ -1,0 +1,35 @@
+{
+  "name": "@prismify/ko-utils",
+  "version": "0.0.1",
+  "main": "lib/main.ts",
+  "repository": "git@github.com:prismify-co/ko-utils.git",
+  "author": "Takeshi Iwana <iwatakeshi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@oclif/tslint": "^3.1.1",
+    "@types/common-tags": "^1.8.0",
+    "@types/jest": "^24.0.21",
+    "@types/node": "^12.12.3",
+    "@types/shelljs": "^0.8.5",
+    "common-tags": "^1.8.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "prepare": "yarn build",
+    "preversion": "yarn run lint",
+    "prepublishOnly": "yarn test",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "tslint -p . -t stylish",
+    "lint:fix": "tslint -p . -t stylish --fix"
+  },
+  "dependencies": {
+    "acorn": "^7.1.0",
+    "ast-types": "^0.13.2",
+    "recast": "^0.18.5"
+  }
+}
