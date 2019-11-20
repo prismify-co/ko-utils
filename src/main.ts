@@ -1,3 +1,4 @@
+import * as configurator from './configurator/main'
 export default {
-  configurator: import('./configurator/main')
+  configurator
 }
