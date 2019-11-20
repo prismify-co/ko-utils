@@ -5,6 +5,11 @@
   "repository": "git@github.com:prismify-co/ko-utils.git",
   "author": "Takeshi Iwana <iwatakeshi@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ],
+  "private": false,
+  "types": "lib/main.d.ts",
   "devDependencies": {
     "@oclif/tslint": "^3.1.1",
     "@types/common-tags": "^1.8.0",
@@ -31,6 +36,5 @@
     "acorn": "^7.1.0",
     "ast-types": "^0.13.2",
     "recast": "^0.18.5"
-  },
-  "private": false
+  }
 }
