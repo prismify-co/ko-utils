@@ -38,5 +38,3 @@ export default (config: string): NuxtConfigurator => (new class implements NuxtC
     return this.config
   }
 }(config))
-
-
