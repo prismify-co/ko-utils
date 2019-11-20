@@ -31,5 +31,6 @@
     "acorn": "^7.1.0",
     "ast-types": "^0.13.2",
     "recast": "^0.18.5"
-  }
+  },
+  "private": false
 }
