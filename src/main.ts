@@ -1,4 +1,5 @@
-import * as configurator from './configurator/main'
-export default {
-  configurator
+import * as Configurator from './configurator/main'
+
+export {
+  Configurator
 }
