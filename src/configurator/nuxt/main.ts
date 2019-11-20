@@ -29,8 +29,13 @@ export default (config: string): NuxtConfigurator => (new class implements NuxtC
     return this
   }
 
-  addPlugins(plugin: string, mode: 'client' | 'server' = 'server') {
+  addPlugin(plugin: string, mode: 'client' | 'server' = 'server') {
     this.config = plugins.add(this.config, plugin, mode)
+    return this
+  }
+
+  removePlugin(plugin: string) {
+    this.config = plugins.remove(this.config, plugin)
     return this
   }
 
