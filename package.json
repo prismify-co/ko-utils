@@ -1,7 +1,7 @@
 {
   "name": "@prismify/ko-utils",
   "version": "0.1.6",
-  "main": "lib/main.ts",
+  "main": "lib/main.js",
   "repository": "git@github.com:prismify-co/ko-utils.git",
   "author": "Takeshi Iwana <iwatakeshi@gmail.com>",
   "license": "MIT",
