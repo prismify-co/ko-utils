@@ -25,7 +25,7 @@
   },
   "scripts": {
     "prepare": "yarn build",
-    "preversion": "yarn run lint",
+    "preversion": "yarn run lint:fix",
     "prepublishOnly": "yarn test",
     "build": "tsc",
     "test": "jest",
