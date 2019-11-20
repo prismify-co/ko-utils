@@ -1,6 +1,6 @@
 {
   "name": "@prismify/ko-utils",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "main": "lib/main.ts",
   "repository": "git@github.com:prismify-co/ko-utils.git",
   "author": "Takeshi Iwana <iwatakeshi@gmail.com>",
@@ -25,7 +25,7 @@
   },
   "scripts": {
     "prepare": "yarn build",
-    "preversion": "yarn run lint:fix",
+    "preversion": "yarn run lint",
     "prepublishOnly": "yarn test",
     "build": "tsc",
     "test": "jest",
