@@ -33,7 +33,7 @@
     "lint:fix": "tslint -p . -t stylish --fix"
   },
   "dependencies": {
-    "acorn": "^7.1.0",
+    "acorn": "^7.1.1",
     "ast-types": "^0.13.2",
     "recast": "^0.18.5"
   }
